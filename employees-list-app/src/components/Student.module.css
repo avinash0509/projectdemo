@@ -1,0 +1,45 @@
+.row {
+  display: flex;
+  background-color: lightgreen;
+}
+
+.row:hover {
+  background-color: green;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.row:hover .listGroup strong {
+  color: white;
+}
+
+.listGroup,
+.listGroup2 {
+  padding: 5px;
+  width: 100%;
+}
+
+.listGroup {
+  width: 80%;
+}
+
+.listGroup2 {
+  width: 20%;
+  text-align: center;
+}
+
+.listGroup strong {
+  width: 85%;
+  display: inline-block;
+  color: green;
+  padding: 5px;
+}
+
+.delButton {
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 7px;
+  padding: 5px;
+}
